@@ -31,7 +31,7 @@ function App() {
             <SideNavigation
               fixedItems={<><SideNavigationItem href="https://www.sap.com/index.html" icon="chain-link" target="_blank" text="External Link" /><SideNavigationItem icon="history" text="History" /></>}
               onSelectionChange={function _a() { }}
-              style={{ borderRadius: 0 }}
+              style={{ borderRadius: 0, border: 0, boxShadow: 'none' }}
             >
               <SideNavigationItem
                 icon="home"
